@@ -1,0 +1,55 @@
+﻿<Window x:Class="autoverseny.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:autoverseny"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="950" Width="800"
+        WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btn_start" Content="Start" Width="90" Height="45" Grid.Row="1" Background="DarkGreen" Click="btn_start_Click" Margin="0,0,250,0"/>
+        <Button x:Name="btn_reset" Content="Reset" Width="90" Height="45" Grid.Row="1" Background="LightGreen" Click="btn_reset_Click" Margin="250,0,0,0"/>
+        <Canvas x:Name="palya"  Background="AliceBlue" Grid.Row="3">
+            <Button x:Name="btn_auto0" Content="Ferrari" Width="90" Height="45" Background="Red"
+        Canvas.Left="20" Canvas.Top="0"/>
+            <Button x:Name="btn_auto1" Content="Fiat" Width="90" Height="45" Background="Aqua"
+        Canvas.Left="20" Canvas.Top="50"/>
+            <Button x:Name="btn_auto2" Content="Honda" Width="90" Height="45" Background="Gray"
+        Canvas.Left="20" Canvas.Top="100"/>
+            <Button x:Name="btn_auto3" Content="Peugeot" Width="90" Height="45" Background="DarkKhaki"
+        Canvas.Left="20" Canvas.Top="150"/>
+            <Button x:Name="btn_auto4" Content="Suzuki" Width="90" Height="45" Background="LightCoral"
+        Canvas.Left="20" Canvas.Top="200"/>
+            <Button x:Name="btn_auto5" Content="BMW" Width="90" Height="45" Background="YellowGreen"
+        Canvas.Left="20" Canvas.Top="250"/>
+            <Button x:Name="btn_auto6" Content="Volvo" Width="90" Height="45" Background="DimGray"
+        Canvas.Left="20" Canvas.Top="300"/>
+            <Button x:Name="btn_auto7" Content="Abarth" Width="90" Height="45" Background="Bisque"
+Canvas.Left="20" Canvas.Top="350"/>
+            <Button x:Name="btn_auto8" Content="Acura" Width="90" Height="45" Background="DeepPink"
+Canvas.Left="20" Canvas.Top="400"/>
+            <Button x:Name="btn_auto9" Content="Alfa Romeo" Width="90" Height="45" Background="Linen"
+Canvas.Left="20" Canvas.Top="450"/>
+            <Button x:Name="btn_auto10" Content="Apollo" Width="90" Height="45" Background="MediumVioletRed"
+Canvas.Left="20" Canvas.Top="500"/>
+            <Button x:Name="btn_auto11" Content="Alpine" Width="90" Height="45" Background="Peru"
+Canvas.Left="20" Canvas.Top="550"/>
+            <Button x:Name="btn_auto12" Content="Borgward" Width="90" Height="45" Background="Orchid"
+Canvas.Left="20" Canvas.Top="600"/>
+            <Button x:Name="btn_auto13" Content="BYD" Width="90" Height="45" Background="Salmon"
+Canvas.Left="20" Canvas.Top="650"/>
+            <Button x:Name="btn_auto14" Content="Ford" Width="90" Height="45" Background="Teal"
+Canvas.Left="20" Canvas.Top="700"/>
+            <Button x:Name="btn_auto15" Content="Brilliance" Width="90" Height="45" Background="Yellow"
+Canvas.Left="20" Canvas.Top="750"/>
+        </Canvas>
+                
+    </Grid>
+</Window>
